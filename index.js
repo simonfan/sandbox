@@ -2,9 +2,6 @@ $(document).ready(function () {
 
 	appModel = new Backbone.Model();
 
-
-
-
 	appModel.on('change', function () {
 
 		$('#nav-app-title').html(appModel.get('title'));
